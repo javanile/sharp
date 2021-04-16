@@ -1,0 +1,21 @@
+{
+  "name": "sharp",
+  "version": "0.1.0",
+  "description": "Sanitize shell output",
+  "homepage": "http://github.com/javanile/sharp",
+  "install": "cp sharp.sh /usr/local/bin/sharp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javanile/sharp.git"
+  },
+  "bin": {
+    "sharp": "./sharp.sh"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "Francesco Bianco <bianco@javanile.org>",
+  "scripts": {
+    "test": "./output-test.sh",
+    "sharp": "./sharp.sh"
+  }
+}
